@@ -95,6 +95,9 @@ nav a:hover{
     border-top: 1px solid rgb(240,240, 240);
     border-bottom: 1px solid rgb(240,240, 240)
 }
+#search-input::placeholder {
+    color: black;
+}
 .search-container {
     display: flex;
     justify-content: center;
@@ -155,9 +158,9 @@ nav a:hover{
     gap: 10px;  
 }
 .info-bar i {
-    height: 30px;
-    width: 30px;
-    min-width: 30px;
+    height: 24px;
+    width: 24px;
+    min-width: 24px;
     border: 2px solid var(--main-bg-color);
     border-radius: 50%;
     display: flex;
