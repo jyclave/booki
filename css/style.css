@@ -236,7 +236,7 @@ a {
 .card-rating-hebergement {
     margin-bottom: 5px;
 }
-.card:hover, .card-hebergements:hover, .figure-container:hover{
+.card:hover, .card-hebergements:hover, .figure-container:hover {
     transform: scale(1.02);
 }
 .card-hebergements img {
