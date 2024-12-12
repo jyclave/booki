@@ -85,6 +85,7 @@ nav a:hover{
 }
 .search-bar input {
     border: none;
+    outline: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 900;
@@ -93,9 +94,6 @@ nav a:hover{
     min-width: 130px;
     border-top: 1px solid rgb(240,240, 240);
     border-bottom: 1px solid rgb(240,240, 240)
-}
-#search-input::placeholder {
-    color: black;
 }
 .search-container {
     display: flex;
