@@ -238,7 +238,7 @@ a {
 .card-rating-hebergement {
     margin-bottom: 5px;
 }
-.card:hover, .card-hebergements:hover, .figure-container:hover {
+.card:hover, .card-hebergements:hover, .figure-container:hover{
     transform: scale(1.02);
 }
 .card-hebergements img {
@@ -319,7 +319,8 @@ a {
     border-radius: 20px;
     border: 1px solid var(--main-bg-color);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;     
+    overflow: hidden; 
+    cursor: pointer;    
 }
 .figure-container a {
     text-decoration: none;
