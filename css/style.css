@@ -206,7 +206,7 @@ a {
 }
 .hebergements-cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(29%, 1fr));
+    grid-template-columns: 1fr 1fr 1fr ;
     gap: 30px;   
 }
 .card-hebergements {
@@ -495,18 +495,4 @@ figcaption {
         gap: 40px;
     }       
 }
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
 
