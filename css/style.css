@@ -405,7 +405,7 @@ figcaption {
         margin-bottom: 20px;
         padding-bottom: 10px;
     }
-    .nav-link {
+    .nav-links{
         display: flex;
         width: 100%;        
     }
