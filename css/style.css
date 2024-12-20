@@ -73,6 +73,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   height: 50px;
+  max-width: 400px;
 }
 .icon-localisation {
   display: flex;
@@ -328,7 +329,7 @@ a {
 }
 .figure-container {
   width: 100%;
-  height: 441px;
+  height: 439px;
   margin: 0px;
   border-radius: 20px;
   border: 1px solid var(--main-bg-color);
@@ -353,6 +354,7 @@ figcaption {
   font-size: 16px;
   font-weight: bold;
   color: black;
+  margin-top: -2px;
 }
 .footer-container {
   background-color: var(--main-bg-color);
@@ -405,6 +407,7 @@ figcaption {
   }
   figcaption {
     height: 70px;
+
   }
   .link-page a:hover {
     border-top: 3px solid var(--main-color);
@@ -445,6 +448,7 @@ figcaption {
   }
   .search-bar {
     padding: 0 20px;
+    max-width: unset;
   }
   .search-bar input {
     width: 100%;
@@ -512,10 +516,5 @@ figcaption {
   .footer-container {
     flex-direction: column;
     gap: 40px;
-  }
-}
-@media (min-width: 769px) {
-  .search-bar {
-    max-width: 400px;
   }
 }
